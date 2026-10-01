@@ -131,6 +131,9 @@ if (cat1.indoor) {
   console.log(`${cat1.getName()} likes to go outside.`);
 }
 
+console.log(dog1.getBreed());
+console.log(dog2.getBreed());
+
 for (let i = 0; i < foodTypes.length; i++) {
   console.log(`Food option ${i + 1}: ${foodTypes[i]}`);
 }
