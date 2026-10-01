@@ -131,6 +131,8 @@ if (cat1.indoor) {
   console.log(`${cat1.getName()} likes to go outside.`);
 }
 
+console.log(cat1.getCatType());
+
 console.log(dog1.getBreed());
 console.log(dog2.getBreed());
 
