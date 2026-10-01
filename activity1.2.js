@@ -119,7 +119,7 @@ if (shelter.countAnimals() > 0) {
   console.log(`${shelterName} is empty right now.`);
 }
 
-if (dog1.age > 5) {
+if (dog1.isSenior()) {
   console.log(`${dog1.getName()} is a senior dog.`);
 } else {
   console.log(`${dog1.getName()} is still young.`);
