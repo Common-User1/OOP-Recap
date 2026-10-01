@@ -20,6 +20,11 @@ class Animal {
   describe() {
     return `${this.getName()} is ${this.age} years old.`;
   }
+
+  // Checks if the animal is a senior
+  isSenior() {
+    return this.age > 5;
+  }
 }
 
 
