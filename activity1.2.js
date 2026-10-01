@@ -42,6 +42,11 @@ class Dog extends Animal {
   makeSound() {
     return `${this.getName()} says: Woof!`;
   }
+
+  // Returns information about the dog's breed
+  getBreed() {
+    return `${this.getName()} is a ${this.breed}.`;
+  }
 }
 
 class Cat extends Animal {
