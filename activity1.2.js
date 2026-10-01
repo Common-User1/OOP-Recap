@@ -25,6 +25,11 @@ class Animal {
   isSenior() {
     return this.age > 5;
   }
+
+  // Returns complete animal details
+  getDetails() {
+    return `${this.getName()} - ${this.age} years old`;
+  }
 }
 
 
