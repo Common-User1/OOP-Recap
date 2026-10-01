@@ -106,7 +106,7 @@ const animalList = [dog1, dog2, cat1];
 const foodTypes = ["kibble", "wet food", "treats"];
 const shelterTasks = ["feed", "clean", "walk"];
 
-console.log(`Today's tasks: ${shelterTasks.join(", ")}`);
+console.log(`${shelterName} tasks today: ${shelterTasks.join(", ")}`);
 
 
 for (const animal of animalList) {
