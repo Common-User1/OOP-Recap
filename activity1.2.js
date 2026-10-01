@@ -158,6 +158,7 @@ console.log(`Food we have: ${petFood.amount} bags of ${petFood.type}`);
 
 for (const animal of shelter.listAnimals()) {
   console.log(animal.describe());
+  console.log(animal.getDetails());
   checkedCount++;
 }
 console.log(`Checked ${checkedCount} animals in total.`);
