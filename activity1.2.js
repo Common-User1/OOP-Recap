@@ -6,14 +6,17 @@ class Animal {
     this.age = age; 
   }
 
+  // Returns the animal's name
   getName() {
     return this.#name;
   }
 
+  // Returns a general animal sound
   makeSound() {
     return "Some generic animal sound";
   }
 
+  // Returns a description of the animal
   describe() {
     return `${this.getName()} is ${this.age} years old.`;
   }
