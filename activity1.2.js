@@ -58,6 +58,15 @@ class Cat extends Animal {
   makeSound() {
     return `${this.getName()} says: Meow!`;
   }
+
+  // Returns the cat's living type
+  getCatType() {
+    if (this.indoor) {
+      return `${this.getName()} is an indoor cat.`;
+    } else {
+      return `${this.getName()} is an outdoor cat.`; 
+    }
+  }
 }
 
 class Shelter {
